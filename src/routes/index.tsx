@@ -10,9 +10,9 @@ function HomePage() {
       <img
         src="/logo.png"
         alt="Disaresta"
-        width={1024}
-        height={1024}
-        className="max-w-[min(80vw,80vh,600px)] h-auto"
+        width={1584}
+        height={396}
+        className="max-w-[min(90vw,800px)] h-auto"
       />
     </div>
   );
