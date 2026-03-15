@@ -10,8 +10,8 @@ function HomePage() {
       <img
         src="/logo.png"
         alt="Disaresta"
-        width={2048}
-        height={2048}
+        width={1024}
+        height={1024}
         className="max-w-[min(80vw,80vh,600px)] h-auto"
       />
     </div>
