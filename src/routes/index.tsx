@@ -8,7 +8,7 @@ function HomePage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-[#3C2970]">
       <img
-        src="/logo.png"
+        src="/disaresta-logo.png"
         alt="Disaresta"
         width={1584}
         height={396}
