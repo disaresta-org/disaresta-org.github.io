@@ -18,7 +18,7 @@ function HomePage() {
         We build software
       </p>
 
-      <div className="mt-8 w-full max-w-2xl px-6" style={{ fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif' }}>
+      <div className="mt-8 w-full max-w-2xl px-6 space-y-3" style={{ fontFamily: 'system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif' }}>
         <h2 className="text-white/60 text-sm uppercase tracking-widest mb-6 text-center">Projects</h2>
         <a
           href="https://loglayer.dev"
@@ -30,6 +30,30 @@ function HomePage() {
           <div>
             <h3 className="text-white text-lg font-semibold">LogLayer</h3>
             <p className="text-white/70 text-sm">A unified logging library for JavaScript / TypeScript</p>
+          </div>
+        </a>
+        <a
+          href="https://go.loglayer.dev"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-5 bg-white/10 hover:bg-white/15 transition-colors rounded-xl p-5"
+        >
+          <img src="/loglayer.png" alt="LogLayer for Go" className="w-16 h-16 rounded-lg shrink-0" />
+          <div>
+            <h3 className="text-white text-lg font-semibold">LogLayer for Go</h3>
+            <p className="text-white/70 text-sm">A unified logging library for Go</p>
+          </div>
+        </a>
+        <a
+          href="https://monorel.disaresta.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-5 bg-white/10 hover:bg-white/15 transition-colors rounded-xl p-5"
+        >
+          <img src="/monorel.png" alt="monorel" className="w-16 h-16 rounded-lg shrink-0" />
+          <div>
+            <h3 className="text-white text-lg font-semibold">monorel</h3>
+            <p className="text-white/70 text-sm">A changesets-style release tool for single-module and multi-module Go repos</p>
           </div>
         </a>
       </div>
